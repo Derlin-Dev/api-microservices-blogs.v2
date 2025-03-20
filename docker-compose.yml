@@ -1,0 +1,143 @@
+services:
+  post-services:
+    build: ./post-services
+    container_name: post-services
+    ports:
+      - "0:8080"
+    depends_on:
+      - discovery-server
+      - server-config
+      - blogs-bd
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://blogs-bd:5432/db_blogs
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 1234
+    networks:
+      - microservices-network
+
+  comment-services:
+    build: ./comments-services
+    container_name: comments-services
+    ports:
+      - "0:8080"
+    depends_on:
+      - discovery-server
+      - server-config
+      - comment-bd
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://comment-bd:5432/db_comment
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 1234
+    networks:
+      - microservices-network
+
+  auth-services:
+    build: ./auth-servicie
+    container_name: auth-service
+    ports:
+      - "0:8080"
+    depends_on:
+      - discovery-server
+      - server-config
+      - auth-bd
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://auth-bd:5432/db_usuarios
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 1234
+    networks:
+      - microservices-network
+
+  gateway-services:
+    build: ./api-gateway
+    container_name: api-gateway
+    ports:
+      - "8081:8081"
+    depends_on:
+      - discovery-server
+    networks:
+      - microservices-network
+
+  discovery-server:
+    build: ./discovery-server
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+    networks:
+      - microservices-network
+
+  server-config:
+    build: ./server-config
+    container_name: server-config
+    ports:
+      - "8888:8888"
+    networks:
+      - microservices-network
+
+  blogs-bd:
+    image: postgres:latest
+    container_name: blogs-bd
+    restart: always
+    environment:
+      POSTGRES_DB: db_blogs
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5433:5432"
+    networks:
+      - microservices-network
+    volumes:
+      - blogs_data:/var/lib/postgresql/data
+
+  comment-bd:
+    image: postgres:latest
+    container_name: comment-bd
+    restart: always
+    environment:
+      POSTGRES_DB: db_comment
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5434:5432"
+    networks:
+      - microservices-network
+    volumes:
+      - comment_data:/var/lib/postgresql/data
+
+  auth-bd:
+    image: postgres:latest
+    container_name: auth-bd
+    restart: always
+    environment:
+      POSTGRES_DB: db_usuarios
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5435:5432"
+    networks:
+      - microservices-network
+    volumes:
+      - usuarios_data:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: rabbitmq:4.0-management  # Incluye el plugin de administración
+    container_name: rabbitmq
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin
+    ports:
+      - "5672:5672"   # Puerto de comunicación entre microservicios
+      - "15672:15672" # Panel de administración web
+    networks:
+      - microservices-network
+
+
+networks:
+  microservices-network:
+    driver: bridge
+
+volumes:
+  blogs_data:
+  comment_data:
+  usuarios_data:
+

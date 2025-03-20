@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5732bfc9-d45e-455a-818c-373b0b594bba" name="Changes" comment="Init commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Derlin-Dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Derlin-Dev/microservices-Spring-blog.git&quot;,
+    &quot;accountId&quot;: &quot;b719e769-42e5-4ab8-8d01-e516421e4fab&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tsRXc3b1Z7o2iVldo2cxf5oAJa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Derlin-HP/Documents/JAVA-PROYECTOS/microservices-blogs/recouser-config",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Derlin-HP\Documents\JAVA-PROYECTOS\microservices-blogs\recouser-config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5732bfc9-d45e-455a-818c-373b0b594bba" name="Changes" comment="" />
+      <created>1741138839135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741138839135</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741139609475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741139609475</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741140372680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741140372680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741140920008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741140920008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741400861093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741400861094</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741400937798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741400937799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741727440899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741727440899</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741727644674</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741727644674</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1741737891143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741737891150</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742261095120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742261095120</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742261177996</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742261177996</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742261396374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742261396374</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742268968455</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742268968455</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742306210653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742306210653</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742323536874</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742323536874</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Init commit">
+      <option name="closed" value="true" />
+      <created>1742432283395</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742432283397</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit" />
+  </component>
+</project>
