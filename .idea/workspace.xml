@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064694ec-685c-4657-9312-67c77efbb6ad" name="Changes" comment="Init commit">
-      <change beforePath="$PROJECT_DIR$/recouser-config/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="064694ec-685c-4657-9312-67c77efbb6ad" name="Changes" comment="Init commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +20,12 @@
     &quot;assignee&quot;: &quot;Derlin-Dev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Derlin-Dev/microservices-Spring-blog.git&quot;,
-    &quot;accountId&quot;: &quot;b719e769-42e5-4ab8-8d01-e516421e4fab&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Derlin-Dev/api-microservices-blogs.v2.git",
+    "accountId": "95c65c8d-6279-41fb-9a12-d29bbeb779b6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,7 +42,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
