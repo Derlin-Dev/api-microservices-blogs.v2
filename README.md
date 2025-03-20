@@ -1,6 +1,6 @@
 #url del proyecto:
 
-- https://roadmap.sh/projects/todo-list-api
+- https://roadmap.sh/projects/blogging-platform-api
 
 # Proyecto API DE PRATAFORMA DE BLOGS
 
