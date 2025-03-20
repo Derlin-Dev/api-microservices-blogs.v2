@@ -24,7 +24,7 @@ Esta API proporciona funcionalidades para gestionar una plataforma de blogs. Per
 - Registro de usuarios
 - Autenticación con JWT
 - CRUD de publicaciones (Crear, Leer, Actualizar, Eliminar)
-- CRUD de coentarios y repuestas.
+- CRUD de comentarios y repuestas.
 
 ## Requisitos
 
