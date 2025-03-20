@@ -102,7 +102,9 @@ Los roles de usuario determinan los permisos para acceder a ciertos endpoints
 
 Los endpoints que requieren autorización deben incluir el token JWT en el encabezado `Authorization` con el formato:
 
-##NOTA 
+###NOTA 
 
 - Este es un proyecto en el que seguire trabaando para imprementar nuevas  funcionalidad y mejorando algunas de ellas.
 - No estoy usando lonbok en este proyecto por un tema de error en con mi IDE. Aun estoy tratando de corregi.
+- Cualquier duda o sugerencia, contáctame en perfil de GitHub o mi linkedin "https://www.linkedin.com/in/derlin-v-peguero/".
+
